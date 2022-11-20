@@ -1,0 +1,46 @@
+EXERCISE 16
+
+CHALLENGE
+
+Nivel: 🔥🔥
+
+Objective:
+Challenge to put what you have learned into practice.
+
+Exercise:
+Suppose we have a clothing production and we have to display different lists of clothing:
+» List Size XS.
+» List Size S.
+» List Size M.
+» Imported clothing list.
+» List Clothes in poor condition.
+
+Using the flyweight pattern, a design must be made to generate the clothing client, with the following attributes:
+» Size: this is a string.
+» Type: this is a string that describes the type of garment: Example pants.
+» isNew: this is a flag to know if it is new.
+» imported: this is a flag to know if it is national or international.
+
+Then we must generate two tests: one to verify that the factory returns the element that we need and another that measures the size of the factory and shows that it is less than the number of orders. For example, if we order five pants and two t-shirts, the factory size should be two.
+
+//SPANISH
+
+
+Objetivo:
+Desafíos para poner en práctica lo aprendido.
+
+Actividad:
+Supongamos que tenemos una producción de clothing y tenemos que mostrar diferentes listas de clothing:
+» Lista Talle XS.
+» Lista Talle S.
+» Lista Talle M.
+» Lista Ropa importada.
+» Lista Ropa en malas condiciones.
+
+Mediante el patrón flyweight se debe realizar un diseño para generar el cliente clothing, con los siguientes atributos:
+» Talle: este es un string.
+» Tipo: este es un string que describe el tipo de prenda: Ejemplo pantalón.
+» esNuevo: esta es una bandera para saber si es nuevo.
+» importada: esta es una bandera para saber si es nacional o internacional.
+
+Luego debemos generar dos tests: uno para corroborar que la fábrica nos devuelve el elemento que necesitamos y otro, que mida el tamaño de la factory y demuestre que es menor a la cantidad de pedidos. Por ejemplo, si pedimos cinco pantalones y dos remeras, el tamaño de la fábrica debería ser dos.

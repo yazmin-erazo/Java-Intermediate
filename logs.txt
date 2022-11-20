@@ -1,0 +1,2 @@
+INFO    2022-11-19 16:27:17,646 [main] Exercise_19_JdbcH2.main.dao.impl.IDaoStudentH2Impl  - ⭐ Info en finally Idao
+INFO    2022-11-19 16:29:10,406 [main] Exercise_19_JdbcH2.main.dao.impl.IDaoStudentH2Impl  - ⭐ Info en finally Idao

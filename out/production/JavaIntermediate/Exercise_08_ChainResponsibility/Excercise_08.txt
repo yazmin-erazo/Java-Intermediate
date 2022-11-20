@@ -1,0 +1,54 @@
+EXERCISE 08
+
+CHAIN RESPONSIBILITY
+
+Nivel: 🔥🔥
+
+Objective:
+Implement the chain of responsibility pattern according to the following statement.
+
+Exercise:
+In a company you want to control the quality of a product. It goes through three different controls and in each one it is verified if it meets the quality standards. According to the controls:
+
+Lot: must be between 1000 and 2000.
+Weight: must be between 1200 and 1300.
+Packaging: must be equal to “sound” or “almost sound”.
+
+In the event that it does not meet any criteria, it must be reported that it was rejected.
+If you meet all the requirements, you must be informed that you have been accepted.
+
+The item still belongs to the item class that has four pieces of information:
+
+1.Name: string
+2.Batch:int
+3.Weight:int
+4.Packaged:string("healthy", "almost healthy", etc.).
+
+You want a QualityAnalyst class to send the article to each of the controls. First the batch, if this is correct, it will go to the weight control. If it is not correct, it reports that the batch is wrong. The sequence of each control continues until, after passing all the controls, it should report that it is correct. Finally, you must make a class that creates an article and asks QualityCheck to verify it. Carry out the necessary test cases to guarantee the quality of the validateProductQuality() method
+
+
+
+// SPANISH
+
+Objetivo:
+Implementar patrón cadena de responsabilidad según el siguiente enunciado.
+
+Actividad:
+En una empresa se desea controlar la calidad de un producto. Se pasa por tres controles diferentes  y en cada uno se verifica si cumple con los estándares de calidad. Según los controles:
+
+Lote: debe estar entre 1000 y 2000.
+Peso: debe estar entre 1200 y 1300.
+Envase: debe ser igual a “sano” o “casi sano”.
+
+En caso de que no cumpla con algún criterio debe informarse que fue rechazado.
+Si cumple con todos los requisitos, debe informarse que fue aceptado.
+
+El artículo pertenece aún a clase artículo que tiene cuatro datos:
+
+1.Nombre:string
+2.Lote:int
+3.Peso:int
+4.Envasado:string(“sano”,“casi sano”,etc.).
+
+Se desea que una clase AnalistaDeCalidad vaya enviando el artículo a cada uno de los controles. Primero el de lote, si este es correcto, pasará al de control de peso. Si no es correcto, informa que está mal el lote. La secuencia de cada control continúa hasta que, al pasar todos los controles, debe informar que está correcto. Por último, se debe hacer una clase que cree un artículo y le pida a CompruebaCalidad que lo verifique. Realizar los casos de prueba necesarios para garantizar la calidad del método validarCalidadDelProducto()
+

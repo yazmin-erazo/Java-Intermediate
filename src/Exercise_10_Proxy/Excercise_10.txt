@@ -1,0 +1,26 @@
+EXERCISE 10
+
+PROXY
+
+Nivel: 🔥🔥
+
+Objective:
+Implement Proxy pattern according to the following statement.
+
+Activity:
+The paid Spotify service allows you to download songs to listen offline. When a user requests to download a song, the Spotify service checks if they are a premium user, to give them access to this functionality. Users have an identifier and a string with the type of user (“Free”, “Premium”).
+
+Implement a Download service class that allows downloading a song and using the proxy pattern to check if it is possible to do so. Create the necessary test cases to ensure the quality of the download() method
+
+
+
+//SPANISH
+
+
+Objetivo:
+implementar patrón Proxy según el siguiente enunciado.
+
+Actividad:
+El servicio de Spotify pago permite descargar canciones para escuchar offline. Cuando un usuario solicita descargar una canción, el servicio de Spotify comprueba si es un usuario premium, para darle acceso a esta funcionalidad. Los usuarios tienen un identificador y un string con el tipo de usuario (“Free”, “Premium”).
+
+Implementar una clase servicio Descarga que permita descargar una canción y mediante el patrón proxy comprobar si es posible hacerlo. Crear los casos de prueba necesarios para garantizar la calidad del método descargar()

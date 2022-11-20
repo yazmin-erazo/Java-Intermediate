@@ -1,0 +1,71 @@
+EXERCISE 12
+
+FLYWEIGHT
+
+Nivel: 🔥🔥
+
+Objective:
+Implement Flyweight pattern according to the following statement.
+
+Exercise:
+In a business they need to create trees so they can see how much space they would take up. The program you currently have has a high consumption of resources. You need to create 1,000,000 trees. The process for creating the trees is:
+ - Each tree has a Height, Width, color and type of tree.
+ - The types of trees that exist are:
+
+-- Ornamental
+High: 200
+Landscape: 400
+color: Green
+
+-- Fruit trees
+High: 500
+Landscape: 300
+color: Red
+
+-- Floral
+Height: 100
+Landscape: 200
+color: Sky blue
+
+The forest is a set of trees and will allow the trees to be planted. Tree Factory will be the place where the different types of trees will be stored. It will allow, before creating the object, to validate if there is already one identical to the one that is being requested. If so, return the existing object; if it doesn't exist, it creates the new object and caches it to be reused later.
+
+You need a system that shows 1,000,000 trees, half red and half green, and then reports the trees and how much memory is being used on the screen.
+
+Using this statement you can see the used memory:
+Runtime runtime = Runtime.getRuntime();
+System.out.println("Memoria usada: " + (runtime.totalMemory() -runtime.freeMemory()) / (1024 * 1024));
+
+
+//SPANISH
+
+
+Objetivo:
+Implementar patrón Flyweight según el siguiente enunciado.
+
+Actividad:
+En un negocio necesitan crear árboles para poder ver cuánto lugar ocuparían. El programa que tiene actualmente posee un elevado consumo de los recursos. Necesita crear 1.000.000 árboles. El proceso para crear los árboles es:
+ - Cada árbol tiene un Alto, Ancho, color y tipo de árbol.
+ - Los tipos de árboles que hay son:
+
+-- Ornamentales
+Alto: 200
+Horizontal: 400
+Color: verde
+
+-- Frutales
+Alto: 500
+Horizontal: 300
+Color: rojo
+
+-- Florales
+Alto: 100
+Horizontal: 200
+Color: celeste
+
+El bosque es un con junto de árboles y permitirá plantar los árboles. Árbol Factory será el lugar donde se almacenarán los diferentes tipos de árboles. Permitirá, antes de crear el objeto, validar si ya existe uno idéntico al que se le está solicitando. De ser así, regresa el objeto existente; de no existir, crea el nuevo objeto y lo almacena en caché para ser reutilizado más adelante.
+
+Se necesita un sistema que muestre 1.000.000 de árboles la mitad rojo y la otra mitad verde y que luego informe por pantalla los árboles y cuanta memoria se está usando.
+
+Usando esta sentencia se podrá ver la memoria usada:
+Runtime runtime = Runtime.getRuntime();
+System.out.println("Memoria usada: " + (runtime.totalMemory() -runtime.freeMemory()) / (1024 * 1024));
