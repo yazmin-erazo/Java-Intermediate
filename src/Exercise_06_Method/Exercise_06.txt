@@ -1,0 +1,41 @@
+EXERCISE 06
+
+TEMPLATE METHOD PATTER
+
+Level: 🔥🔥
+
+Objetive:
+Implement template method according to the following statement.
+
+Activity:
+It is desired to support the process of assembling takeaway menus in a fast food business.
+Three types of menus are offered: classic, children's and vegetarian.
+
+The menus have a base price to which surcharges are added according to the following:
+
+» Children's menu: 3 additional pesos for each toy included.
+» Vegetarian menu: additional 1% for spices and 2 pesos for each vegetarian sauce.
+» Classic menu: no surcharges
+
+When a customer purchases the products, the employees must assemble the package of each menu and then calculate its cost. The process of preparing a menu implies the assembly and then its calculation of the sale price.
+We need a system that displays a message to employees about how the menu should be put together. In this way, we can guarantee uniformity in deliveries. Then, you must report the final cost of the menu sold.
+
+
+
+// SPANISH
+
+Objetivo:
+Implemente el método de plantilla de acuerdo con la siguiente declaración.
+
+Actividad:
+Se desea apoyar el proceso de armado de menús para llevar en un negocio de comida rápida.
+Se ofrecen tres tipos de menús: clásico, infantil y vegetariano.
+
+Los menús tienen un precio base al que se le añaden recargos de acuerdo a lo siguiente:
+
+» Menú infantil: 3 pesos adicionales por cada juguete incluido.
+» Menú vegetariano: 1% adicional por especias y 2 pesos por cada salsa vegetariana.
+» Menú clásico: sin recargos
+
+Cuando un cliente compra los productos, los empleados deben armar el paquete de cada menú y luego calcular su costo. El proceso de elaboración de un menú implica el montaje y luego su cálculo del precio de venta.
+Necesitamos un sistema que muestre un mensaje a los empleados sobre cómo se debe armar el menú. De esta manera, podemos garantizar la uniformidad en las entregas. Luego, debe informar el costo final del menú vendido.

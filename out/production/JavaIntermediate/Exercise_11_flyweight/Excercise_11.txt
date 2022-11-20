@@ -1,0 +1,54 @@
+EXERCISE 11
+
+FLYWEIGHT
+
+Nivel: 🔥🔥
+
+Objective:
+Implement Flyweight pattern according to the following statement.
+
+Exercise:
+A business needs to generate computers with different specifications, as well as reuse the same specifications. The types of computers that exist are:
+
+-- Windows
+RAM: 2
+Hard Drive: 128
+
+-- Mac
+RAM: 16
+Hard Drive: 500
+
+It is necessary that the application does not generate high costs in resources: it has to be optimized. Computers will have the following attributes:
+RAM
+HDD
+go
+Counter (it will be used to store the number of instances)
+
+Computer Factory is going to be the computer container that will store the different types. You will need to apply if the computer exists get the if not generate it. We need you to inform us of the computers created.
+
+
+
+//SPANISH
+
+
+Objetivo:
+Implementar patrón Flyweight según el siguiente enunciado.
+
+Actividad:
+Un negocio necesita generar computadoras con distintas especificaciones, así como también reutilizar las mismas especificaciones. Los tipos de computadoras que hay son:
+
+-- Windows
+RAM: 2
+Disco Duro: 128
+
+-- Mac
+RAM: 16
+Disco Duro: 500
+
+Es necesario que la aplicación no genere altos costos en los recursos: tiene que estar optimizada. Las computadoras tendrán los siguientes atributos:
+Ram
+Disco Duro
+Id
+Contador(servirá para almacenar el número de instancias)
+
+Computadora Factory va a ser el contenedor de computadoras que almacenará los diferentes tipos. Se necesitará aplicar si la computadora existe obtener la si no generarla. Necesitamos que nos informe las computadoras creadas.
