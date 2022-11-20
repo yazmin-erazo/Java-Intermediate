@@ -121,7 +121,7 @@ Ejercicios para repaso de Patrones de diseño.
 
 ### 🔗 Links
 
-Si quieres saber visita:
+Si quieres saber sobre patrones de diseño, visita:
 - [El catálogo de patrones de diseñoe](https://refactoring.guru/es/design-patterns/catalog)
 <em> de refactoring.guru</em>
 
