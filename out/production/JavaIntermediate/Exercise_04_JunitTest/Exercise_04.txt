@@ -1,0 +1,42 @@
+EXERCISE 04
+
+Level: 🔥🔥
+
+Objetive:
+The objective of the activity is to create an application that allows us to add people to a group.
+
+Activity:
+The requirement to be admitted is that the registrar must be over 18 years of age and have a name of 5 letters or more.
+Create test cases for the following scenarios:
+
+1. Given 5 people (Juan, Pedro, Ana, Luz y Julián) and an empty collection of Person objects, when trying to add them to the collection, the size of the collection should be 2.
+2. Given 5 people (18 years old, 17 years old, 22 years old, 14 years old, and 32 years old), the size of the collection should be 3.
+3. Given 5 people (N1c0las, Tomas, 3steban, Carlos\sV, Francisco\sII), the size of the collection should be 1
+
+-Should be a person type
+-The person should be over 18 years old
+-The name should have more than 4 letters
+-The name should contain only letters from a - z
+-Age should be a number between 0-9 => 3
+characters - 120 years
+
+
+
+// SPANISH
+
+Objetivo:
+El objetivo de la actividad es crear una aplicación que nos permita agregar personas a un grupo.
+
+Actividad:
+El requisito para ser admitido es que el registrador debe ser mayor de 18 años y tener un nombre de 5 letras o más.
+Cree casos de prueba para los siguientes escenarios:
+
+1. Dadas 5 personas (Juan, Pedro, Ana, Luz y Julián) y una colección vacía de objetos Person, al intentar agregarlos a la colección, el tamaño de la colección debería ser 2.
+2. Dadas 5 personas (18 años, 17 años, 22 años, 14 años y 32 años), el tamaño de la colección debe ser 3.
+3. Dadas 5 personas (N1c0las, Tomas, 3steban, Carlos\sV, Francisco\sII), el tamaño de la colección debe ser 1
+
+-Debe ser un tipo de persona
+-La persona debe ser mayor de 18 años.
+-El nombre debe tener más de 4 letras
+-El nombre debe contener solo letras de la a a la z
+-La edad debe ser un número entre 0-9 => 3 caracteres - 120 años

@@ -1,0 +1,55 @@
+EXERCISE 13
+
+FACADE
+
+Nivel: 🔥🔥
+
+Objective:
+Implement Facade pattern according to the following statement.
+
+Exercise:
+Suppose we have to program a discount calculation system in a supermarket.
+
+There are cumulative discounts (the percentages are added) according to:
+» By card: if it is from the Star Bank, it has an extra 20% discount.
+» By type of product: cans have a 10% discount.
+» By quantity: if you buy more than 12 there is a 15% discount.
+
+Each discount policy is implemented in a different API:
+1. ApiCard:int discount(Card)
+2. ProductApi:int discount(Product)
+3. ApiQuantity:int discount(quantity)
+
+Therefore, a facade will be implemented that allows exposing the high-level discount calculation that uses the different APIs.
+You also have to model the classes:
+» Product: String name and String type
+» Card: String number and String bank
+
+Using the Facade pattern, we want to make a facade that allows us to simplify the discount calculation with product, card and quantity as parameters.
+
+
+//SPANISH
+
+
+Objetivo:
+Implementar patrón Facade según el siguiente enunciado.
+
+Actividad:
+Supongamos que tenemos que programar un sistema de cálculo de descuento en un supermercado.
+
+Hay descuentos acumulables (se suman los porcentajes) según:
+» Por tarjeta: si es del banco Star Bank tiene un 20%de descuento extra.
+» Por tipo de producto: las latas tienen un 10% de descuento.
+» Por cantidad: si compran más de 12 hay un descuento del 15%.
+
+Cada política de descuento está implementada en una API diferente:
+1. ApiTarjeta:int descuento(Tarjeta)
+2. ApiProducto:int descuento(Producto)
+3. ApiCantidad:int descuento(cantidad)
+
+Por lo cual se implementará una fachada que permita exponer el cálculo de descuento de alto nivel que utilice las diferentes api.
+Hay que modelar también las clases:
+» Producto: nombre String y tipo String
+» Tarjeta: número String y banco String
+
+Utilizando el patrón Facade se quiere hacer una fachada que permita simplificar el cálculo de descuento con producto, tarjeta y cantidad como parámetros

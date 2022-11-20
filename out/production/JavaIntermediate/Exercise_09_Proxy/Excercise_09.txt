@@ -1,0 +1,30 @@
+EXERCISE 09
+
+PROXY
+
+Nivel: 🔥🔥
+
+Objective:
+Implement Proxy pattern according to the following statement.
+
+Activity:
+In a vaccination center, the people registered and on duty — in addition to knowing their name, surname and ID — are assigned a vaccination date and the vaccine that will be applied to them. These can occur one day after the assigned date, so when vaccinating it is necessary to inform, using the vaccinate() method, that it has already been applied.
+
+ At the time of vaccination, the confirmation must be registered with the DNI, date and vaccine. To prevent the information from being inconsistent, it must be checked that the date is equal to or later than the assigned date.
+
+ A proxy must be used to perform this control. To simplify the exercise, if the registration is correct, a message is issued with the registered information. Create the test cases required to ensure the quality of the vaccinate() method.
+
+
+
+//SPANISH
+
+
+Objetivo:
+implementar patrón Proxy según el siguiente enunciado.
+
+Actividad:
+En un centro de vacunación las personas inscriptas y con turno — además de conocer su nombre, apellido y DNI — tienen asignada una fecha de vacunación y la vacuna que se les aplicará. Estas pueden concurrir un día posterior a la fecha asignada, por lo cual cuando se vacuna es necesario informar, mediante el método vacunar(), que esta ya fue aplicada.
+
+ En el momento de la vacunación, se debe registrar la confirmación con el DNI, fecha y vacuna. Para evitar que la información sea inconsistente se debe controlar que la fecha sea igual o posterior a la fecha asignada.
+
+ Se debe utilizar un proxy para efectuar este control. Para simplificar el ejercicio, si el registro es correcto se emite un mensaje con la información registrada. Crear los casos de prueba requeridos para garantizar la calidad del método vacunar().
